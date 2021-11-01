@@ -380,6 +380,6 @@ response:
 Update user information :
 
 ```bash
-curl -v -X PUT localhost:8000/api/users/register?7d2676be-82e0-4c5a-9cc7-6f8a82fc8943 -d '{"login": "test" , "password" : "test"}' 
+curl -v -X PUT localhost:8000/api/users/register?id=7d2676be-82e0-4c5a-9cc7-6f8a82fc8943 -d '{"login": "test" , "password" : "test"}' 
 ```
 
